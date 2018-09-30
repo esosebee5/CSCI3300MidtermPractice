@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="ung.mccb.csis.csci3300.controller.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+    <TextField fx:id="txtLNo" promptText="Enter LNo"></TextField>
+    <TextField fx:id="txtVIN" promptText="Enter VIN"></TextField>
+    <TextField fx:id="txtMake" promptText="Enter Make"></TextField>
+    <TextField fx:id="txtModel" promptText="Enter Model"></TextField>
+    <TextField fx:id="txtYear" promptText="Enter Year"></TextField>
+    <Button onAction="#submitRecord" text="Submit"></Button>
+</VBox>
+
